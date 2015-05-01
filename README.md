@@ -36,7 +36,7 @@ prefer to use docker when run code in sandbox
 Below cases fail in http://ideone.com/  
 I hope to run them with runyourcode.  
 
-# Case 1, requires necessary header file  
+### Case 1, requires necessary header file  
 using namespace std;  
 int main() {  
   vector<int> v;  
@@ -45,7 +45,7 @@ int main() {
   return 0;  
 }  
 
-# Case 2, requires compile options -pthread
+### Case 2, requires compile options -pthread
 void print_message_function ( void *ptr ) {  
   pthread_exit(0);  
 }  
